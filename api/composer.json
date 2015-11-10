@@ -1,0 +1,25 @@
+{
+  "name": "reekoheek/bind9-api",
+  "authors": [
+    {
+      "name": "Ganesha",
+      "email": "reekoheek@gmail.com"
+    }
+  ],
+  "repositories": [
+    {"type": "composer", "url": "http://192.168.1.10:8000/repo/packagist/"},
+    {"packagist": false}
+  ],
+  "require": {
+    "xinix-technology/bono": "^2.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "guzzlehttp/guzzle": "^6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rapi\\": "src/"
+    }
+  }
+}

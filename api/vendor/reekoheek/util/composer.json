@@ -1,0 +1,25 @@
+{
+    "name": "reekoheek/util",
+    "type": "library",
+    "description": "PHP util library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ganesha",
+            "email": "reekoheek@gmail.com",
+            "homepage": "http://xinix.co.id",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/reekoheek/php-util/issues"
+    },
+    "require": {
+        "reekoheek/jsonkit": "~0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ROH\\Util\\": "src/ROH/Util"
+        }
+    }
+}
